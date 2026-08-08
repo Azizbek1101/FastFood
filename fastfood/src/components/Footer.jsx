@@ -24,16 +24,6 @@ export default function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>Contact</h4>
-            <ul>
-              <li>📍 Qarshi, O‘zbekiston</li>
-              <li>📞 +998 90 123 45 67</li>
-              <li>📧 info@fastfood.uz</li>
-              <li>🕐 Monday-Saturday: 9:00 - 22:00</li>
-            </ul>
-          </div>
-
-          <div className="footer-col">
             <h4>Download App</h4>
             <a 
               href="https://play.google.com/store" 

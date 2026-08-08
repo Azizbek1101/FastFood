@@ -3,7 +3,7 @@ export default function Banner() {
     <section className="banner">
       <div className="container banner-container">
 
-        <div className="banner-content">
+        <div className="banner-content" style={{marginTop: "20px"}}>
           <h1>
             <span style={{color: "gold"}}>Special Food</span> Every
             <br />
