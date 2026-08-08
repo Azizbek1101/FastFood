@@ -1,4 +1,3 @@
-
 export default function Cart({ isOpen, onClose, cart, updateQty, total, products }) {
   if (!isOpen) return null;
 

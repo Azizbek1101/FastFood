@@ -1,4 +1,3 @@
-
 export default function ProductCard({ product, inCart, onToggleCart }) {
   return (
     <div className="product-card">
@@ -9,12 +8,12 @@ export default function ProductCard({ product, inCart, onToggleCart }) {
         <h3>{product.name}</h3>
         <p>{product.description}</p>
         <div className="product-bottom">
-          <span className="price">{product.price.toLocaleString()} so‘m</span>
+          <span className="price">{product.price.toLocaleString()}</span>
           <button 
             className={inCart ? 'btn-in-cart' : 'btn-add'} 
             onClick={() => onToggleCart(product.id)}
           >
-            {inCart ? '✓ Savatda' : '+ Qo‘shish'}
+            {inCart ? '✓ Savatda' : '🛒'}
           </button>
         </div>
       </div>

@@ -1,4 +1,3 @@
-
 import { products } from '../data/products';
 import ProductCard from './ProductCard';
 
@@ -15,9 +14,8 @@ export default function ProductGrid({ category, cart, onToggleCart, searchTerm }
 
   return (
     <section className="product-grid container">
-      <h2>Bizning ajoyib taomlar</h2>
-      <p>Mazali taom xohlaysizmi, lekin vaqtingiz yo‘qmi? Biz issiq va mazali taomlarni yetkazib beramiz. Taomsevarlar bizning taomlarimizni yaxshi ko‘radilar.</p>
-      
+      <h2>Our Awesome Food</h2>
+      <p>Want delicious meal, but no time we will deliver it hot and yummy Foodies will love our foof</p>
       {filtered.length === 0 ? (
         <div className="no-results">
           <p>🔍 Hech qanday taom topilmadi</p>

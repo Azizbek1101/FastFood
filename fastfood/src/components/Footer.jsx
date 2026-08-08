@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-col">
             <h3>🍔 FastFood</h3>
-            <p>Eng yaxshi oshpazlar va yetkazib beruvchilar xizmatingizda. Issiq va mazali taomlar 60 daqiqada yetkazib beriladi.</p>
+            <p>The best restaruant with best chefs in the world made with love</p>
             <div className="social-icons">
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                 <i className="fa-brands fa-instagram"></i>
@@ -24,29 +24,17 @@ export default function Footer() {
           </div>
 
           <div className="footer-col">
-            <h4>Tez havolalar</h4>
+            <h4>Contact</h4>
             <ul>
-              <li><a href="#">Bosh sahifa</a></li>
-              <li><a href="#">Menyu</a></li>
-              <li><a href="#">Yetkazib berish</a></li>
-              <li><a href="#">Aloqa</a></li>
-              <li><a href="#">Biz haqimizda</a></li>
-            </ul>
-          </div>
-
-          {/* 3-ustun: Kontakt */}
-          <div className="footer-col">
-            <h4>Bog‘lanish</h4>
-            <ul>
-              <li>📍 Toshkent, O‘zbekiston</li>
+              <li>📍 Qarshi, O‘zbekiston</li>
               <li>📞 +998 90 123 45 67</li>
               <li>📧 info@fastfood.uz</li>
-              <li>🕐 Dushanba-Shanba: 9:00 - 22:00</li>
+              <li>🕐 Monday-Saturday: 9:00 - 22:00</li>
             </ul>
           </div>
 
           <div className="footer-col">
-            <h4>Ilovani yuklab oling</h4>
+            <h4>Download App</h4>
             <a 
               href="https://play.google.com/store" 
               target="_blank" 
@@ -63,12 +51,12 @@ export default function Footer() {
             >
               <i className="fa-brands fa-apple"></i> App Store
             </a>
-            <p className="app-note">🎉 Birinchi buyurtmada 10% chegirma</p>
+            <p className="app-note">🎉 For first foof 50% discount</p>
           </div>
         </div>
 
         <div className="footer-bottom">
-          <p>© 2024 FastFood. Barcha huquqlar himoyalangan. ❤️ bilan tayyorlangan</p>
+          <p>© 2024 All rights reserved by Azizbek</p>
         </div>
       </div>
     </footer>
