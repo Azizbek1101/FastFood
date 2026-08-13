@@ -19,8 +19,8 @@ export default function Banner() {
 
         <div className="banner-image">
           <img
-            src="public/pnghut_0686087d9a44f09ca920d571845fee60.png"
-            alt="Fast Food"
+            src="s/pnghut_0686087d9a44f09ca920d571845fee60.png"
+            alt="Fast Food"т
           />
         </div>
 
