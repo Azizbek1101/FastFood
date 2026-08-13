@@ -365,7 +365,7 @@ body {
   background: #fff;
   border-radius: 16px;
   width: 550px;
-  max-height: 85vh;
+  height: 800px;
   overflow: hidden;
   padding: 24px;
   animation: slideDown 0.3s ease;
@@ -404,7 +404,7 @@ body {
   cursor: pointer;
   color: #999;
   padding: 0 8px;
-  transition: color 0.3s, transform 0.3s;
+  transition: color 0.3s;
 }
 
 .close-btn:hover {
@@ -437,7 +437,7 @@ body {
 
 .cart-item img {
   width: 55px;
-  height: 55px;
+  height: 60px;
   border-radius: 12px;
   object-fit: cover;
 }

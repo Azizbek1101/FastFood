@@ -5,7 +5,7 @@ export const products = [
     name: 'Pizza',
     category: 'pizza',
     price: "$6",
-    image: 'basil-tomato-and-cheese-on-top-of-wooden-platter.jpg?b=1&s=612x612&w=0&k=20&c=W-EvXZTbKFbOh4z6J7hplTiRuF_C2QKMi9CHbclQt50=',
+    image: 'https://plus.unsplash.com/premium_photo-1733259709671-9dbf22bf02cc?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGl6emF8ZW58MHx8MHx8fDA%3D',
     description: 'The greatest pizzas in this world with tomatoes',
   },
   {
@@ -13,7 +13,7 @@ export const products = [
     name: 'Hot-dog',
     category: 'hotdog',
     price: "$2",
-    image: 'public/548664fea6cefacbecc46644e4ceb5f3.png',
+    image: 'https://media.istockphoto.com/id/2199666245/photo/indulge-in-a-delectable-hot-dog-topped-with-mustard-and-ketchup-for-ultimate-satisfaction.webp?a=1&b=1&s=612x612&w=0&k=20&c=eLglAo7HsUkdS0I-DwDx-uxvByceax1QACALqIvlJy0=',
     description: 'Fresh hot-dogs with sousages',
   },
   {
@@ -21,7 +21,7 @@ export const products = [
     name: 'Shawarma',
     category: 'shawarma',
     price: "$2",
-    image: 'public/82d0bf757a46bb0bcf9a6692a4014eb0.png',
+    image: 'https://images.unsplash.com/photo-1676300187264-bec8e83c1780?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ2fHxzaGF3YXJtYXxlbnwwfHwwfHx8MA%3D%3D',
     description: 'Shawarma with meat and vegetables',
   },
   {
@@ -29,7 +29,7 @@ export const products = [
     name: 'Hamburger',
     category: 'burger',
     price: "$2.5",
-    image: 'public/classic-cheese-burger-with-beef-cutlet-vegetables-onions-isolated-white-background.jpg',
+    image: 'https://media.istockphoto.com/id/945057664/photo/double-cheese-burger.webp?a=1&b=1&s=612x612&w=0&k=20&c=HwDxle2zDwUrLMR-MhDAw7tiAvd8rZ4B4kTSJ-LvKL8=',
     description: 'Soft and fresh hamburger',
   },
   {
@@ -37,7 +37,7 @@ export const products = [
     name: 'KFS',
     category: 'kfs',
     price: "$2.5",
-    image: 'public/452b2cc7fc8ad7c9758fafe799ae7a0c.png',
+    image: 'https://images.unsplash.com/photo-1727404296878-b1c54135cf25?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODd8fGNoaWNrZW4lMjBsZWdzfGVufDB8fDB8fHww',
     description: 'Hot and new baked KFS',
   },
   {
@@ -45,7 +45,7 @@ export const products = [
     name: 'Sandwiches',
     category: 'sandwich',
     price: "$2.5",
-    image: 'public/065baf9761c7eb0bbc96b1735fccfa00.png',
+    image: 'https://images.unsplash.com/photo-1553909489-cd47e0907980?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2FuZHdpY2h8ZW58MHx8MHx8fDA%3D',
     description: 'Delicious Sandwiches',
   },
   {
@@ -53,7 +53,7 @@ export const products = [
     name: 'Ice-creams',
     category: 'dessert',
     price: "$0.5",
-    image: 'public/0a78e9600d3bd26dfb61234763b72820.png',
+    image: 'https://images.unsplash.com/photo-1705103654884-cbd03d95761a?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGljZSUyMGNyYW18ZW58MHx8MHx8fDA%3D',
     description: 'Ice-cream with chocolate and fruits',
   },
   {
@@ -61,7 +61,7 @@ export const products = [
     name: 'Deserts',
     category: 'dessert',
     price: "$2",
-    image: 'public/52cc6a1108bada8af0434dbf1187e83c.png',
+    image: 'https://images.unsplash.com/photo-1622621746668-59fb299bc4d7?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzB8fGNha2V8ZW58MHx8MHx8fDA%3D',
     description: 'Deserts that you dream',
   },
   {
@@ -69,7 +69,7 @@ export const products = [
     name: 'Drinks',
     category: 'drink',
     price: "$1",
-    image: 'public/97b7da233b91419955f02e98b79c5962.png',
+    image: 'https://images.unsplash.com/photo-1625865019845-7b2c89b8a8a9?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c29kYSUyMGRyaW5rc3xlbnwwfHwwfHx8MA%3D%3D',
     description: 'Soda drinks',
   },
 ];
