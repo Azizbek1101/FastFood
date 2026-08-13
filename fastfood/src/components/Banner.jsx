@@ -19,7 +19,7 @@ export default function Banner() {
 
         <div className="banner-image">
           <img
-            src="/pngwing.com.png"
+            src="public/pnghut_0686087d9a44f09ca920d571845fee60.png"
             alt="Fast Food"
           />
         </div>
