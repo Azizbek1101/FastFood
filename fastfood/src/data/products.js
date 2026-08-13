@@ -5,7 +5,7 @@ export const products = [
     name: 'Pizza',
     category: 'pizza',
     price: "$6",
-    image: 'https://media.istockphoto.com/id/2023102269/photo/pizza-topped-with-fresh-basil-tomato-and-cheese-on-top-of-wooden-platter.jpg?b=1&s=612x612&w=0&k=20&c=W-EvXZTbKFbOh4z6J7hplTiRuF_C2QKMi9CHbclQt50=',
+    image: 'basil-tomato-and-cheese-on-top-of-wooden-platter.jpg?b=1&s=612x612&w=0&k=20&c=W-EvXZTbKFbOh4z6J7hplTiRuF_C2QKMi9CHbclQt50=',
     description: 'The greatest pizzas in this world with tomatoes',
   },
   {
@@ -13,7 +13,7 @@ export const products = [
     name: 'Hot-dog',
     category: 'hotdog',
     price: "$2",
-    image: 'https://images.pexels.com/photos/5041477/pexels-photo-5041477.jpeg',
+    image: 'public/548664fea6cefacbecc46644e4ceb5f3.png',
     description: 'Fresh hot-dogs with sousages',
   },
   {
@@ -21,7 +21,7 @@ export const products = [
     name: 'Shawarma',
     category: 'shawarma',
     price: "$2",
-    image: 'https://media.istockphoto.com/id/1421688556/photo/beef-shawarma-on-a-dark-background-shawarma-with-beef-in-pita-bread.jpg?b=1&s=612x612&w=0&k=20&c=mf5uLb_L1Qde63jvLhN7rYm7TI2x8BRhhgO2p2gTYCo=',
+    image: 'public/82d0bf757a46bb0bcf9a6692a4014eb0.png',
     description: 'Shawarma with meat and vegetables',
   },
   {
@@ -29,7 +29,7 @@ export const products = [
     name: 'Hamburger',
     category: 'burger',
     price: "$2.5",
-    image: '',
+    image: 'public/classic-cheese-burger-with-beef-cutlet-vegetables-onions-isolated-white-background.jpg',
     description: 'Soft and fresh hamburger',
   },
   {
@@ -37,7 +37,7 @@ export const products = [
     name: 'KFS',
     category: 'kfs',
     price: "$2.5",
-    image: 'https://media.istockphoto.com/id/477596753/photo/homemade-southern-fried-chicken.jpg?b=1&s=612x612&w=0&k=20&c=XJ4RiL1P_n81JXfMk-bbyAKjA7NFpQxMdY3e8fERIuA=',
+    image: 'public/452b2cc7fc8ad7c9758fafe799ae7a0c.png',
     description: 'Hot and new baked KFS',
   },
   {
@@ -45,7 +45,7 @@ export const products = [
     name: 'Sandwiches',
     category: 'sandwich',
     price: "$2.5",
-    image: 'https://media.istockphoto.com/id/1400980767/photo/ham-sandwich-with-cheese-lettuce-and-tomato.jpg?b=1&s=612x612&w=0&k=20&c=UKgVkjyFqZJN7VWyA4yxZBIJ335KLo7wJo9bNV-bvGw=',
+    image: 'public/065baf9761c7eb0bbc96b1735fccfa00.png',
     description: 'Delicious Sandwiches',
   },
   {
@@ -53,7 +53,7 @@ export const products = [
     name: 'Ice-creams',
     category: 'dessert',
     price: "$0.5",
-    image: 'https://media.istockphoto.com/id/2153490093/photo/three-glasses-of-ice-cream-with-balls-decorated-on-table.jpg?b=1&s=612x612&w=0&k=20&c=o-VaB-JoDJ3YnOStkMN4NnKOZRez2Kiz0BGgXSkWi2M=',
+    image: 'public/0a78e9600d3bd26dfb61234763b72820.png',
     description: 'Ice-cream with chocolate and fruits',
   },
   {
@@ -61,7 +61,7 @@ export const products = [
     name: 'Deserts',
     category: 'dessert',
     price: "$2",
-    image: 'https://images.pexels.com/photos/16544183/pexels-photo-16544183.jpeg',
+    image: 'public/52cc6a1108bada8af0434dbf1187e83c.png',
     description: 'Deserts that you dream',
   },
   {
@@ -69,7 +69,7 @@ export const products = [
     name: 'Drinks',
     category: 'drink',
     price: "$1",
-    image: 'https://images.pexels.com/photos/14018287/pexels-photo-14018287.png',
+    image: 'public/97b7da233b91419955f02e98b79c5962.png',
     description: 'Soda drinks',
   },
 ];

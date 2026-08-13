@@ -53,27 +53,31 @@ function App() {
   return (
     <div>
       <Header 
-       cartCount={cartCount} 
-       onCartOpen={() => setCartOpen(true)}
-       onSearch={handleSearch}
+        cartCount={cartCount} 
+        onCartOpen={() => setCartOpen(true)}
+        onSearch={handleSearch}
       />
-      <Banner />
-      <CategoryBar current={category} setCategory={setCategory} />
-      <ProductGrid 
-        category={category} 
-        cart={cart} 
-        onToggleCart={toggleCart}
-        searchTerm={searchTerm}
-      />
-      <Cart
-        isOpen={cartOpen}
-        onClose={() => setCartOpen(false)}
-        cart={cart}
-        updateQty={updateQty}
-        total={total}
-        products={products}
-      />
-      <Footer />
+      <div id="home"><Banner /></div>
+      <div id="menu"><CategoryBar current={category} setCategory={setCategory} /></div>
+      <div id="shop">
+        <ProductGrid 
+          category={category} 
+          cart={cart} 
+          onToggleCart={toggleCart}
+          searchTerm={searchTerm}
+        />
+      </div>
+      <div id="delivery">
+        <Cart
+          isOpen={cartOpen}
+          onClose={() => setCartOpen(false)}
+          cart={cart}
+          updateQty={updateQty}
+          total={total}
+          products={products}
+        />
+      </div>
+      <div id="contact"><Footer /></div>
     </div>
   );
 }
