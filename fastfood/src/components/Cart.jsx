@@ -1,4 +1,6 @@
 export default function Cart({ isOpen, onClose, cart, updateQty, total, products }) {
+  console.log('Cart isOpen:', isOpen);
+
   if (!isOpen) return null;
 
   return (
